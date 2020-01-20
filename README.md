@@ -14,3 +14,9 @@ Obs: Tudo no `HTML` orienta-se da esquerda para a direita e de cima para baixo, 
   ```
   <a href="https://www.google.com/">Seu texto aqui</a>
   ```
+
+# CSS 
+É uma linguagem de estilo. Isso quer dizer que ela tem as seguintes responsabilidades:
+
+- Ela tem que cuidar de tudo que é visual;
+- 
