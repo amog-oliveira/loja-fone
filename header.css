@@ -1,7 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
 header {
   background-color: #e24647;
   color: #ffffff;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0 115px;
   padding: 55px 60px 95px;
   
