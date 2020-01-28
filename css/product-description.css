@@ -1,6 +1,7 @@
 .product-description {
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;  
+  float: right;
 }
 
 .descriptionTitle {
