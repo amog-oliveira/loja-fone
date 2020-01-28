@@ -3,13 +3,13 @@
   overflow: hidden;  
 }
 
-.title {
+.header-store > .title {
   font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
   float: left;
 }
 
-.navigation {
+.header-store > .navigation {
   font-size: 21px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   float: right;
@@ -17,13 +17,13 @@
 
 }
 
-.action {
+.header-store .action {
   text-decoration: none;
   color: inherit;
   margin-right: 60px;
   
 }
 
-.last {
+.header-store .action.-last {
   margin-right: 0;
 }
