@@ -1,0 +1,6 @@
+.wrap-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px;
+  margin-right: 110px;
+}
