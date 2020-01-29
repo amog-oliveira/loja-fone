@@ -12,6 +12,24 @@
   text-transform: uppercase;
 }
 
+.header-store .search {
+  float: left;
+  margin-right: 65px;
+}
+
+#busca {
+  width: 360px;
+  border-bottom-color: white;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
 .header-store > .navigation {
   font-size: 21px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
