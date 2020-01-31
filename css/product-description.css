@@ -8,14 +8,6 @@
   margin-bottom: 50px;
 }
 
-.product-description > .stars {
-  margin-bottom: 25px;
-}
-
-.product-description .stars .star {
-  margin-right: 9px;
-}
-
 .product-description > .item {
   font-size: 20px;
   margin-bottom: 28px;
@@ -23,6 +15,7 @@
 
 .product-description > .item.-star {
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .product-description > .item.-star + .item {
