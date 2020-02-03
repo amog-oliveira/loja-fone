@@ -33,12 +33,21 @@
 }
 
 .header-store .action {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   margin-right: 60px;
 }
 
-.header-store .action:hover {
+.header-store .action::after {
+  display: block;
+  content: '';
+  width: 0;
+  transition: width 800ms;
+}
+
+.header-store .action:hover::after {
+  width: 100%;
   border-bottom: 1px solid #fff;
   padding: 8px;
 }
