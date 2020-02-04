@@ -29,7 +29,7 @@
   padding: 8px;
   width: 358px;
   margin-right: 65px;
-
+  vertical-align: bottom;
 }
 
 .header-store .action {
@@ -37,21 +37,32 @@
   text-decoration: none;
   color: inherit;
   margin-right: 60px;
+  padding-bottom: 8px;
+  position: relative;
 }
 
-.header-store .action::after {
-  display: block;
-  content: '';
-  width: 0;
-  transition: width 800ms;
+.header-store .action:hover {
 }
 
-.header-store .action:hover::after {
-  width: 100%;
-  border-bottom: 1px solid #fff;
-  padding: 8px;
-}
 
 .header-store .action.-last {
   margin-right: 0;
+}
+
+
+.header-store .action::after {
+  content: "";
+  height: 1px; 
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: center left;
+  transition: transform 200ms linear;
+}
+
+.header-store .action:hover::after {
+  transform: scaleX(1);
 }
