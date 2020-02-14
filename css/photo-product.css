@@ -7,3 +7,27 @@
   border-bottom-right-radius: 150px;
   margin-right: 157px;
 }
+
+@media (max-width: 1325px) {
+  .photo-product{
+    margin-right: 130px;
+  }  
+}
+
+@media (max-width: 1300px) {
+   .photo-product {
+    display: block;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 0;
+    width: 100%;
+  } 
+
+  .photo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+}
+
